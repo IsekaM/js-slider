@@ -1,0 +1,24 @@
+{
+	"name": "js-slider",
+	"version": "1.0.0",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"cssnano": "^4.1.10"
+	},
+	"scripts": {
+		"build": "parcel build ./src/js/main.mjs -d ./dist -o bundle --no-source-maps --no-cache",
+		"watch": "parcel watch ./src/js/main.mjs -d ./dist -o bundle --no-source-maps --no-cache"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/IsekaM/js-slider.git"
+	},
+	"author": "Makesi Morrison",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/IsekaM/js-slider/issues"
+	},
+	"homepage": "https://github.com/IsekaM/js-slider#readme",
+	"description": ""
+}
